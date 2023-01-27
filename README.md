@@ -22,13 +22,13 @@ Visual Studio 2022 community edition or Visaul Code is the preferred IDE
    ```json
    {
         "ConnectionStrings": {
-            "DefaultConnection": "Server=;Database=;User Id=;Password=;"  ## This is a connection to a Postgres Database
-            "DefaultConnection1": "Server=;Database=;Trusted_Connection=True;" ## This is a connection to SqlServer
+            "DefaultConnection": "Server=;Database=;User Id=;Password=;" 
+            "DefaultConnection1": "Server=;Database=;Trusted_Connection=True;" 
             
         },
    
-        "SENDGRID_KEY": "", ##  A Sendgrid key needed to send emails
-        "SENDER_EMAIL": "" ## A default email needed to send emails
+        "SENDGRID_KEY": "", 
+        "SENDER_EMAIL": "" 
    }
    ```
 
